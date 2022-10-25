@@ -4,16 +4,16 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='background'>
+        <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a href='/' className="btn btn-ghost normal-case text-xl">Tour Travel</a>
+                    <a href='/home' className="btn btn-ghost normal-case text-xl">Tour Travel</a>
                     <div className='m-4'>
-                        <Link className='option' to="/shop">Home</Link>
-                        <Link className='option' to="/orders">Hot Place</Link>
-                        <Link className='option' to="/inventory">Book</Link>
-                        <Link className='option' to="/about">About</Link>
-                        <Link className='option' to="/login">Log In</Link>
+                        <Link className='option link-accent' to="/home">Home</Link>
+                        <Link className='option link-secondary' to="/place">Hot Place</Link>
+                        <Link className='option link-accent' to="/book">Book</Link>
+                        <Link className='option link-accent' to="/about">About</Link>
+                        <Link className='option link-accent' to="/login">Log In</Link>
                     </div>
                 </div>
 

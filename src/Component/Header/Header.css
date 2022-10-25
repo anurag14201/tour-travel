@@ -1,3 +1,7 @@
 .option {
     padding-left: 80px;
 }
+
+.background {
+    background-image: url(/images/cover.png);
+}
