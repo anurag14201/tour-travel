@@ -5,6 +5,8 @@ import Footer from './Component/Footer/Footer'
 import Log from './Component/LogIn/Log'
 import Book from './Component/Book/Book'
 import Home from './Component/Home/Home'
+import SignUp from './Component/SignUp/SignUp';
+import Place from './Component/Place/Place';
 function App() {
   return (
     <div className=''>
@@ -12,7 +14,9 @@ function App() {
       <Routes>
         <Route path='/book' element={<Book></Book>} ></Route>
         <Route path="/login" element={<Log></Log>}></Route>
+        <Route path="/place" element={<Place></Place>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route></Route>
       </Routes>
       <Footer></Footer>

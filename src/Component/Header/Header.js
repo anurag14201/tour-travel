@@ -5,15 +5,16 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar">
                 <div className="flex-1">
                     <a href='/home' className="btn btn-ghost normal-case text-xl">Tour Travel</a>
-                    <div className='m-4'>
+                    <div className='m-4 justify-evenly'>
                         <Link className='option link-accent' to="/home">Home</Link>
                         <Link className='option link-secondary' to="/place">Hot Place</Link>
                         <Link className='option link-accent' to="/book">Book</Link>
                         <Link className='option link-accent' to="/about">About</Link>
                         <Link className='option link-accent' to="/login">Log In</Link>
+                        <Link className='option link-accent' to="/signup">Sign Up</Link>
                     </div>
                 </div>
 

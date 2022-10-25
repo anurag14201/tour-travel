@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p>Copyright © 2022 - All right reserved by<a href='https://www.facebook.com/anurag.datta.988/'>ANURAG DATTA</a></p>
+                    <p>Copyright © 2022 - All right reserved by <a href='https://www.facebook.com/anurag.datta.988/' target="_blank" rel='noopener noreferrer' > ANURAG DATTA</a></p>
                 </div>
             </footer>
         </div>
