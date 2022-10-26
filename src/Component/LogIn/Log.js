@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import auth, { getAuth } from '../../firebase.init';
+// import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+// import auth, { getAuth } from '../../firebase.init';
 
 const Log = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [
-        signInWithEmailAndPassword,
-        user,
-        error,
-    ] = useSignInWithEmailAndPassword(auth);
+    // const [email, setEmail] = useState('');
+    // const [password, setPassword] = useState('');
+    // const [
+    //     signInWithEmailAndPassword,
+    //     user,
+    //     error,
+    // ] = useSignInWithEmailAndPassword(auth);
+
 
 
     return (
@@ -33,7 +34,7 @@ const Log = () => {
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="text" placeholder="password" className="input input-bordered" />
+                                <input type="password" placeholder="password" className="input input-bordered" />
                                 <label className="label">
                                     <a href="/" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
