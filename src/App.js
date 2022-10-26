@@ -7,15 +7,17 @@ import Book from './Component/Book/Book'
 import Home from './Component/Home/Home'
 import SignUp from './Component/SignUp/SignUp';
 import Place from './Component/Place/Place';
+import Destination from './Component/About/Destination';
 function App() {
   return (
     <div className=''>
       <Header></Header>
       <Routes>
-        <Route path='/book' element={<Book></Book>} ></Route>
-        <Route path="/login" element={<Log></Log>}></Route>
-        <Route path="/place" element={<Place></Place>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path="/place" element={<Place></Place>}></Route>
+        <Route path='/book' element={<Book></Book>} ></Route>
+        <Route path='/destination' element={<Destination></Destination>}></Route>
+        <Route path="/login" element={<Log></Log>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route></Route>
       </Routes>

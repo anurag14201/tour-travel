@@ -12,7 +12,7 @@ const Header = () => {
                         <Link className='option link-accent' to="/home">Home</Link>
                         <Link className='option link-secondary' to="/place">Hot Place</Link>
                         <Link className='option link-accent' to="/book">Book</Link>
-                        <Link className='option link-accent' to="/about">About</Link>
+                        <Link className='option link-accent' to="/destination">Destination</Link>
                         <Link className='option link-accent' to="/login">Log In</Link>
                         <Link className='option link-accent' to="/signup">Sign Up</Link>
                     </div>
